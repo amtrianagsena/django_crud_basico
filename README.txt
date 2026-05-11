@@ -13,6 +13,7 @@ Revisar conexión a la bd en el archivo settings.py
 3. Ubicarse en la carpeta raiz donde esta manage.py
 4. Migrar la base de datos>
 python manage.py makemigrations
+---
 Si es el caso: pip install pymysql
 python manage.py migrate (tener XAMPP activo y la bd)
 5. Crear superusuario panel de admin django> python manage.py createsuperuser
@@ -24,10 +25,11 @@ python manage.py migrate (tener XAMPP activo y la bd)
 9. Acceder al panel de administración en la url> http://127.0.0.1:8000/admin/
 
 Basado en el tutorial: https://www.youtube.com/watch?v=ezIj71CX944
-
+--
 ***Usar entorno virtual
 python -m venv env
-env\Scripts\actívate
+env\Scripts\activate
+--usar cmd si se tiene permisos NO powershell
 pip install django
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (si se tiene problemas de permisos de instalación)
 pip install pymysql
