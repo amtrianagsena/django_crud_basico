@@ -10,7 +10,7 @@ Revisar conexión a la bd en el archivo settings.py
 
 1. Instalar Python> En el bash: python --version
 --
-2. Instalar Django> pip install django
+2. Instalar Django> pip install django o python -m pip install django
 3. Ubicarse en la carpeta raiz donde esta manage.py
 4. Migrar la base de datos>
 python manage.py makemigrations
