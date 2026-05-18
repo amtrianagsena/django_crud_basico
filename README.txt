@@ -34,7 +34,7 @@ env\Scripts\activate
 pip install django
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (si se tiene problemas de permisos de instalación)
 pip install pymysql
-pip install Pillow (para las imágenes que maneja la bd)
+pip install Pillow (para las imágenes que maneja la bd) o python -m pip install Pillow
 
 ***Usar SQLite por permisos de actualización mariadb
 project/settings.py:
